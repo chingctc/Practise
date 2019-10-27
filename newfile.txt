@@ -1,0 +1,3 @@
+Add is adding a file to the local git staging area.
+Commit is commiting the file to the local git branch.
+Push is pushing the commited file to the remote branch and synchronized with the repository on cloud.
