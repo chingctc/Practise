@@ -1,4 +1,4 @@
-# JS-loop
+# JS-Function
 
 This exercise consists of several small exercises, each with its own readme, which you can check out.
 
