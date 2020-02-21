@@ -37,11 +37,14 @@ public class App {
         int specialItemOfferPrice = (int) (totalPrice - applySpecialItemOffer(orderedItem));
 
         if ((applyBuy30Min6Discount(orderedItem) > 0) || applySpecialItemOffer(orderedItem) > 0) {
-            output += "-----------------------------------\nPromotion used:\n";
+            output += "-----------------------------------\n";
+            output += "Promotion used:\n";
             if (buy30Min6DiscountPrice <= specialItemOfferPrice) {
-                output += getSalesPromotion("BUY_30_SAVE_6_YUAN").getDisplayName();
-                output += "，saving " + (int) applyBuy30Min6Discount(orderedItem) + " yuan\n";
-                output += "-----------------------------------\nTotal：" + buy30Min6DiscountPrice;
+                // output += getSalesPromotion("BUY_30_SAVE_6_YUAN").getDisplayName();
+                output += "Deduct 6 yuan when the order reaches 30 yuan, saving 6 yuan\n";
+                // output += "，saving " + (int) applyBuy30Min6Discount(orderedItem) + " yuan\n";
+                output += "-----------------------------------\n";
+                output += "Total：" + buy30Min6DiscountPrice;
                 output += " yuan\n===================================";
             } else {
                 output += getSalesPromotion("50%_DISCOUNT_ON_SPECIFIED_ITEMS").getDisplayName();
