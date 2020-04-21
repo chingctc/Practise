@@ -4,8 +4,8 @@ button {
   border-radius: 8px;
   background: lightgrey;
   border: 0px;
-  height: 45px;
-  width: 45px;
+  height: 30px;
+  width: 30px;
   font-size: 20px;  
   cursor: pointer;
 }
@@ -17,4 +17,5 @@ button:active {
 span {
   display: inline-block;
   width: 50px;
+  font-size: 20px;
 }
