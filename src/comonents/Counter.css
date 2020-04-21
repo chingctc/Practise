@@ -1,0 +1,20 @@
+
+button {
+  justify-content: center;
+  border-radius: 8px;
+  background: lightgrey;
+  border: 0px;
+  height: 45px;
+  width: 45px;
+  font-size: 20px;  
+  cursor: pointer;
+}
+
+button:active {
+  background: #99ccff;
+}
+
+span {
+  display: inline-block;
+  width: 50px;
+}
