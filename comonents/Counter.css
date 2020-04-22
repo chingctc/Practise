@@ -1,0 +1,22 @@
+
+button {
+  justify-content: center;
+  border-radius: 8px;
+  background: lightgrey;
+  border: 0px;
+  height: 30px;
+  width: 30px;
+  font-size: 20px;  
+  cursor: pointer;
+  padding-bottom: 2px;
+}
+
+button:active {
+  background: #99ccff;
+}
+
+span {
+  display: inline-block;
+  width: 50px;
+  font-size: 20px;
+}

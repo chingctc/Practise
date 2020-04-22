@@ -1,0 +1,18 @@
+label {
+  font-size: 15px; 
+}
+
+input {
+  text-align: center;
+}
+
+form {
+  padding: 5px 5px;
+  border: 1px solid #dfdfdf;
+}
+
+#counterSum {
+  display: inline-block;
+  width: 50px;
+  font-size: 16px;
+}
