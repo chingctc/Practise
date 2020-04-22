@@ -28,10 +28,10 @@ class CounterGroup extends Component {
       });
   }
 
-  onCalculate(number) {
+  onCalculate(different) {
     this.setState((prevState) => {
       return {
-        sum: prevState.sum + number,
+        sum: prevState.sum + different,
       };
     });
   }
@@ -57,10 +57,6 @@ class CounterGroup extends Component {
       </div>
     );
   }
-}
-
-CounterGroup.propTypes = {
-  number: PropTypes.number
 }
 
 export default CounterGroup;

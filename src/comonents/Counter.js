@@ -25,9 +25,6 @@ class Counter extends Component {
   }
 
   componentDidUpdate(prevProps, prevState) {
-    if(prevState.number !== this.state.number) {
-      this.setState({ number: this.state.number});
-    }
     if(this.state.number > prevState.number) {
       this.props.onCalculate(1);
     } else if(this.state.number < prevState.number) {
